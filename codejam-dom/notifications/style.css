@@ -1,0 +1,100 @@
+.notifications,
+.notifications-show {
+  position: fixed;
+  z-index: 9999;
+  top: 10px;
+  right: 10px;
+  width: 24em;
+  background-color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.15);
+}
+
+.notifications-show {
+  width: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.notifications-title {
+  margin: 0;
+  padding: 8px 25px 8px 12px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.notifications-container {
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+.notifications-item {
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+
+.notifications-item:last-child {
+  margin-bottom: 0;
+}
+
+.notifications-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 8px 12px;
+}
+
+.notifications-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notifications-label {
+  cursor: pointer;
+}
+
+.notifications-label-text {
+  font-size: 13px;
+  user-select: none;
+}
+
+.notifications-constrol-btn {
+  cursor: pointer;
+}
+
+.notifications-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.notifications-list-item {
+  border: 1px solid #000000;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.notifications-list-item.current {
+  background-color: #000000;
+}
+
+.notifications-controls-close {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

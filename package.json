@@ -1,0 +1,21 @@
+{
+  "name": "frontsideman-2018q3",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/frontsideman-2018Q3.git"
+  },
+  "author": "frontsideman",
+  "license": "ISC",
+  "homepage": "https://github.com/rolling-scopes-school/frontsideman-2018Q3#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
